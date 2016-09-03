@@ -9,8 +9,8 @@ var config = {
   app_name: 'My Bitcoin Dice',
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
-  recaptcha_sitekey: '6LfX3RoTAAAAADZ9ROeozXu1Xp1HiWy-r_4V6wFm',  // <----- EDIT ME!
-  redirect_uri: 'https://mybitcoindice.com/',
+  recaptcha_sitekey: '6Le0QCkTAAAAANfpfl5HSYfuCE-IOzvdpYziDLMN',  // <----- EDIT ME!
+  redirect_uri: 'mybitcoindice.github.io',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
   chat_uri: '//socket.moneypot.com',
@@ -21,7 +21,7 @@ var config = {
   force_https_redirect: !isRunningLocally(),
   // - Configure the house edge (default is 1%)
   //   Must be between 0.0 (0%) and 1.0 (100%)
-  house_edge: 0.01,
+  house_edge: 0.02,
   chat_buffer_size: 250,
   // - The amount of bets to show on screen in each tab
   bet_buffer_size: 25
